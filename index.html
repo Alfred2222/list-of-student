@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<HTML>
+   <head>
+       <title> List Of Students </title>
+       <link href="style.css" rel="stylesheet">
+   </head> 
+   <body>
+       <center>
+        <h3 style="margin-top:20; margin-bottom:20">LIST OF STUDENTS</h3>
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="Name of Student" id="name_of_student_1">
+            <br/>
+
+            <span>2</span>
+            <input type="text" placeholder="Name of Student" id="name_of_student_2">
+            <br/>
+
+            <span>3</span>
+            <input type="text" placeholder="Name of Student" id="name_of_student_3">
+            <br/>
+
+            <span>4</span>
+            <input type="text" placeholder="Name of Student" id="name_of_student_4">
+            <br/>
+        </div>
+        <button onclick="submit()" id="submit_button">SUBMIT</button>
+        <div id="display_name">
+
+        </div>
+        <button id= "sort_button" onclick="sort()" >SORT</button>
+       </center>
+       <script src="main.js"></script>
+   </body>
+</HTML>
